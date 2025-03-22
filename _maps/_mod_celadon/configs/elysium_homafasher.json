@@ -1,0 +1,36 @@
+{
+	"$schema": "https://raw.githubusercontent.com/shiptest-ss13/Shiptest/master/_maps/ship_config_schema.json",
+	"map_name": "Homafasher-class Mining Corvette",
+	"map_short_name": "Homafasher",
+	"description": "По меркам шуры Аль-Фада, «Хомафашер» — старый, но надёжный и проверенный временем корабль. Его экипаж состоит из опытных шахтёров, а на борту имеется уникальное оборудование, как кинетический крашер и специализированные шахтёрские костюмы. Корабль оснащён медицинским отсеком, двумя мощными плазменными двигателями и четырьмя ионными ускорителями.",
+	"map_path": "_maps/_mod_celadon/shuttles/elysium/elysium_homafasher.dmm",
+	"enabled": true,
+	"limit": 1,
+	"sensor_range": 5,
+	"prefix": "EUSF",
+	"faction": "/datum/faction/elysium",
+	"tags": [
+		"Specialist",
+		"Miner",
+		"Addiction"
+	],
+	"namelists": [
+		"SPACE",
+		"WEAPONS"
+	],
+	"job_slots": {
+		"Caid": {
+			"outfit": "/datum/outfit/job/elysium/captain",
+			"officer": true,
+			"slots": 1
+		},
+		"Mukatell": {
+			"outfit": "/datum/outfit/job/elysium/security",
+			"slots": 2
+		},
+		"Ahisa`i": {
+			"outfit": "/datum/outfit/job/elysium/assistant",
+			"slots" : 3
+		}
+	}
+}
